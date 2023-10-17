@@ -1,0 +1,72 @@
+.tarjeta-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+.tarjeta{
+    border: 1px solid rebeccapurple;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgb(244, 16, 16) 1px 1px 40px;
+    margin: 15px;
+    background-color: cornflowerblue;   
+}
+.tarjeta img{
+    width: 200px;
+    height: 230px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: azure;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.tarjeta button{
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: azure;
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: block;
+}
+
+.descripcion{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.tarjeta-2{
+    border: 1px solid rebeccapurple;
+    width: 40%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgb(244, 16, 16) 1px 1px 40px;
+    margin: 15px;
+    background-color: cornflowerblue;   
+}
+
+.tarjeta-contacto{
+    border: 1px solid rebeccapurple;
+    width: 60%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgb(244, 16, 16) 1px 1px 40px;
+    margin: 15px;
+    background-color: cornflowerblue;   
+}
+
