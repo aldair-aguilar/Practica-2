@@ -52,12 +52,19 @@
 
 .tarjeta-2{
     border: 1px solid rebeccapurple;
-    width: 40%;
+    width: 500px;
     padding: 15px;
     border-radius: 8px;
     box-shadow: rgb(244, 16, 16) 1px 1px 40px;
     margin: 15px;
     background-color: cornflowerblue;   
+}
+
+.tarjeta-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
 }
 
 .tarjeta-contacto{

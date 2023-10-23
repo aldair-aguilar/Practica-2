@@ -6,6 +6,7 @@
 
 body{
     font-size: large;
+    display: table-row-group;
 }
 header{
     display: flex;
@@ -20,7 +21,7 @@ header{
 .div-titulo{
     flex: 80px;
     border: 15px solid black;
-    width: 500%;
+    width: 300px;
     background-color: #fff;
 }
 
@@ -46,6 +47,7 @@ nav a :hover{
 main{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 main p{
@@ -54,10 +56,12 @@ main p{
 
 
 aside{
+    
     flex: 30%;
     background-color: darkgray;
-    padding: 10px;
+    padding:10px;
     text-align: center;
+    
 } 
 
 section{
@@ -137,4 +141,11 @@ footer{
 td img{
     width: 200px;
     height: 250px;
+}
+
+.icons{
+    
+    display: table;
+    width: 100px;
+    margin: 0 auto;
 }
